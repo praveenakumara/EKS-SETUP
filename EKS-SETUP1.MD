@@ -1,20 +1,18 @@
-- Install Git
+Install all tools PREREQUISITES
+
+###############- Install Git#######################
 
 yum install git -y
 
-- Install Java
+#######################- Install Java ####################
 
 yum install java -y
 
-- Install Maven
+#######################- Install Maven ######################
 
 cd /opt/
 
-wget
-
-http://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/bin
-
-aries/apache-maven-3.6.3-bin.tar.gz
+wget http://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
 
 tar xvzf apache-maven-3.6.3-bin.tar.gz
 
@@ -24,7 +22,7 @@ export MAVEN_HOME=/opt/apache-maven-3.6.3
 
 export PATH=$PATH:$MAVEN_HOME/bin
 
-- Install Docker
+###############################- Install Docker ######################
 
 yum install docker -y
 
